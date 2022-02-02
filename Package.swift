@@ -21,10 +21,12 @@ let package = Package(
         .target(
             name: "ModuleApp",
             dependencies: [],
-            path: "Module App"),
+            path: "Module App"
+        ),
         .testTarget(
             name: "ModuleAppTests",
             dependencies: ["ModuleApp"],
-            path: "Module App"),
+            path: "Module App"
+        ),
     ]
 )
