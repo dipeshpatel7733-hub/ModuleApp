@@ -23,6 +23,7 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "ModuleAppTests",
-            dependencies: ["ModuleApp"]),
+            dependencies: ["ModuleApp"],
+            path: "Source"),
     ]
 )
