@@ -12,7 +12,12 @@ public struct TestView: View {
   public init() {}
 
   public var body: some View {
-    Text("Hello from Module app.... Test test...")
+    VStack {
+      Image("SuspendedImage")
+        .resizable()
+
+      Text("Hello from Module app.... Test test...")
+    }
   }
 }
 
