@@ -12,7 +12,7 @@ public struct TestView: View {
   public init() {}
 
   public var body: some View {
-    Text("Hey there...")
+    Text("Hello from Module app....")
   }
 }
 
