@@ -13,7 +13,7 @@ public struct TestView: View {
 
   public var body: some View {
     VStack {
-      Image("SuspendedImage", bundle: .module)
+      Image("SuspendedImage", bundle: .bundleModule)
         .resizable()
 
       Text("Hello from Module app.... Test test...")
