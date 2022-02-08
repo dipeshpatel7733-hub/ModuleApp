@@ -19,7 +19,9 @@ let package = Package(
         .target(
             name: "ModuleApp",
             dependencies: [],
-            path: "Module App"
+            path: "Module App",
+            exclude: ["Info.plist", "Module_AppApp.swift", "Bundle+Module.swift"],
+            resources: [.process("Resources")]
         ),
         .testTarget(
             name: "ModuleAppTests",
