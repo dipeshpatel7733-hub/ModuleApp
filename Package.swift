@@ -22,11 +22,6 @@ let package = Package(
             path: "Module App",
             exclude: ["Module_AppApp.swift", "Bundle+Module.swift"],
             resources: [.process("Resources")]
-        ),
-        .testTarget(
-            name: "ModuleAppTests",
-            dependencies: ["ModuleApp"],
-            path: "Module AppTests"
-        ),
+        )
     ]
 )
