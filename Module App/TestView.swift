@@ -17,6 +17,8 @@ public struct TestView: View {
         .resizable()
 
       Text("Hello from Module app.... Test test...")
+
+      R.image.suspendedImage.image
     }
   }
 }
