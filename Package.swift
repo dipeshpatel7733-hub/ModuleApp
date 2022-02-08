@@ -1,22 +1,22 @@
-// swift-tools-version:5.4
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-  name: "ModuleApp",
+  name: "Module App",
   platforms: [
     .iOS(.v14)
   ],
   products: [
-    .library(name: "ModuleApp", targets: ["ModuleApp"])
+    .library(name: "Module App", targets: ["Module App"])
   ],
   dependencies: [
     .package(url: "https://github.com/mac-cain13/R.swift", from: "6.1.0")
   ],
   targets: [
     .target(
-      name: "ModuleApp",
+      name: "Module App",
       path: "Module App",
       exclude: ["Info.plist", "Module_AppApp.swift", "Bundle+Module.swift"],
       resources: [.process("Resources")]
