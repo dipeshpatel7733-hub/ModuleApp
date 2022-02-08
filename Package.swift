@@ -9,14 +9,14 @@ let package = Package(
     .iOS(.v14)
   ],
   products: [
-    .library(name: "Module App", targets: ["Module App"])
+    .library(name: "ModuleApp", targets: ["ModuleApp"])
   ],
   dependencies: [
     .package(url: "https://github.com/mac-cain13/R.swift", from: "6.1.0")
   ],
   targets: [
     .target(
-      name: "Module App",
+      name: "ModuleApp",
       path: "Module App",
       exclude: ["Info.plist", "Module_AppApp.swift", "Bundle+Module.swift"],
       resources: [.process("Resources")]
