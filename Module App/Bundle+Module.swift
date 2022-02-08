@@ -9,8 +9,7 @@ import class Foundation.Bundle
 
 extension Foundation.Bundle {
   /// Returns the resource bundle associated with the current Swift module.
-  static var bundleModule: Bundle = {
+  static var module: Bundle = {
     return Bundle.main
   }()
 }
-
