@@ -20,7 +20,7 @@ let package = Package(
             name: "ModuleApp",
             dependencies: [],
             path: "Module App",
-            exclude: ["Module_AppApp.swift", "Bundle+Module.swift"],
+            exclude: ["Module_AppApp.swift", "Bundle+Module.swift", "R.generated.swift"],
             resources: [.process("Resources")]
         ),
         .testTarget(
