@@ -12,7 +12,7 @@ let package = Package(
     .library(name: "ModuleApp", targets: ["ModuleApp"])
   ],
   dependencies: [
-    .package(url: "https://github.com/mac-cain13/R.swift", from: "6.1.0")
+    .package(url: "https://github.com/mac-cain13/R.swift.Library", from: "5.4.0")
   ],
   targets: [
     .target(
